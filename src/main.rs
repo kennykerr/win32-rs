@@ -40,14 +40,14 @@ fn enum_processes() {
             {
                 let mut text: [u16; 512] = [0; 512];
 
-                win32::K32GetModuleBaseNameW(
+                let len = win32::K32GetModuleBaseNameW(
                     process,
                     modules,
                     text.as_mut_ptr(),
                     text.len() as u32 - 1,
                 );
 
-                let text = String::from_utf16_lossy(&text);
+                let text = String::from_utf16_lossy(&text[..len as usize]);
                 println!("{}", text);
             }
         }
