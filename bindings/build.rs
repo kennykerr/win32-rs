@@ -1,12 +1,17 @@
 fn main() {
     winrt::build!(
-        windows::win32::{
+        windows::win32::menu_rc::{
             EnumWindows,
+            GetWindowTextW,
+        }
+        windows::win32::ps_api::{
             K32EnumProcesses,
-            OpenProcess,
             K32EnumProcessModules,
             K32GetModuleBaseNameW,
-            GetWindowTextW
         }
+        windows::win32::win_prog::{
+            OpenProcess,
+        }
+        windows::win32::dwm::*
     );
 }

@@ -106,9 +106,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.81"
+version = "0.2.82"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1482821306169ec4d07f6aca392a4681f66c75c9918aa49641a2595db64053cb"
+checksum = "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929"
 
 [[package]]
 name = "memoffset"
@@ -255,7 +255,7 @@ dependencies = [
 [[package]]
 name = "winmd"
 version = "0.8.0"
-source = "git+https://github.com/microsoft/winrt-rs#4a2915140799f250c96f85bd9aa91e41482a3fe4"
+source = "git+https://github.com/microsoft/winrt-rs#e8c28d64388d309258a917fab8b3ab65aa89d2d5"
 dependencies = [
  "serde",
  "serde_json",
@@ -265,7 +265,7 @@ dependencies = [
 [[package]]
 name = "winmd-macros"
 version = "0.8.0"
-source = "git+https://github.com/microsoft/winrt-rs#4a2915140799f250c96f85bd9aa91e41482a3fe4"
+source = "git+https://github.com/microsoft/winrt-rs#e8c28d64388d309258a917fab8b3ab65aa89d2d5"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -275,7 +275,7 @@ dependencies = [
 [[package]]
 name = "winrt"
 version = "0.8.0"
-source = "git+https://github.com/microsoft/winrt-rs#4a2915140799f250c96f85bd9aa91e41482a3fe4"
+source = "git+https://github.com/microsoft/winrt-rs#e8c28d64388d309258a917fab8b3ab65aa89d2d5"
 dependencies = [
  "const-sha1",
  "winmd",
@@ -286,7 +286,7 @@ dependencies = [
 [[package]]
 name = "winrt-gen"
 version = "0.8.0"
-source = "git+https://github.com/microsoft/winrt-rs#4a2915140799f250c96f85bd9aa91e41482a3fe4"
+source = "git+https://github.com/microsoft/winrt-rs#e8c28d64388d309258a917fab8b3ab65aa89d2d5"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -301,7 +301,7 @@ dependencies = [
 [[package]]
 name = "winrt-gen-macros"
 version = "0.8.0"
-source = "git+https://github.com/microsoft/winrt-rs#4a2915140799f250c96f85bd9aa91e41482a3fe4"
+source = "git+https://github.com/microsoft/winrt-rs#e8c28d64388d309258a917fab8b3ab65aa89d2d5"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -311,7 +311,7 @@ dependencies = [
 [[package]]
 name = "winrt-macros"
 version = "0.8.0"
-source = "git+https://github.com/microsoft/winrt-rs#4a2915140799f250c96f85bd9aa91e41482a3fe4"
+source = "git+https://github.com/microsoft/winrt-rs#e8c28d64388d309258a917fab8b3ab65aa89d2d5"
 dependencies = [
  "proc-macro2",
  "quote",
